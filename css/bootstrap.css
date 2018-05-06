@@ -217,10 +217,7 @@ table {
   border-spacing: 0;
 }
 
-td,
-th {
-  padding: 0;
-}
+
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -328,7 +325,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42857;
   color: #333333;
   background-color: #fff;
@@ -394,8 +391,8 @@ img {
 }
 
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -495,15 +492,15 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h4, .h4 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 h5, .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h6, .h6 {

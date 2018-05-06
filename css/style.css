@@ -12,11 +12,12 @@
 *
 * ======================================================= */
 body {
-  font-family: "Roboto", Arial, sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15 px;
+  font-size: 15 px;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.8);
 }
 @media screen and (max-width: 992px) {
   body {
@@ -36,18 +37,39 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.2em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.p-small{
+    font-size: 14px
+}
+
+.p-bold{
+    font-weight: 600
+}
+
+h1, h2, h3 {
   color: #000;
-  font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
   margin: 0 0 30px 0;
 }
+h4 {
+  color: #000;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+
+h5, h6 {
+  color: rgba(0, 0, 0);
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+
 
 figure {
-  margin-bottom: 2.5em;
   float: left;
   width: 100%;
 }
@@ -66,6 +88,47 @@ figure {
   color: #fff;
   background: #da1212;
 }
+
+
+#table-requirements
+{
+  width:100%;
+  border-collapse:collapse;
+}
+#table-requirements tr.p0 td
+{ font-size:14px;
+    font-weight: 600;
+  text-align:left;
+  border:1px solid #fff;
+   padding:12px 10px;
+  background-color:#BBBEBF;
+    color: #FFF;
+}
+
+#table-requirements tr.p1 td
+{ font-size:14px;
+  text-align:left;
+  border:1px solid #fff;
+  padding:12px 10px;
+  background-color:#B9DDFC;
+}
+
+#table-requirements tr.p2 td
+{ font-size:14px;
+  text-align:left;
+  border:1px solid #fff;
+   padding:12px 10px;
+  background-color:#D4ECFF;
+}
+
+
+#w1-gif {
+  background-color: #D4ECFF; 
+  padding:15px 10px 0 10px;
+  color: #fff;
+  font-size： 10px;
+}
+
 
 #fh5co-page {
   width: 100%;
@@ -135,7 +198,7 @@ figure {
   transition: 0.3s;
   padding: 10px 10px;
   letter-spacing: .2em;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 #fh5co-aside #fh5co-main-menu ul li a:after {
   content: "";
@@ -240,7 +303,7 @@ figure {
   position: relative;
   width: 80%;
   margin: 0 auto;
-  padding: 4em 0;
+  padding: 0 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-main .fh5co-narrow-content {
@@ -271,6 +334,45 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -o-transform: translateX(270px);
   transform: translateX(270px);
 }
+
+.mar-bot-0 {
+  margin-bottom: 0px;
+}
+.mar-bot-2 {
+  margin-bottom: 20px;
+}
+
+.mar-bot-4 {
+  margin-bottom: 40px;
+}
+
+.mar-bot-6 {
+  margin-bottom: 60px;
+}
+
+.mar-bot-8 {
+  margin-bottom: 80px;
+}
+
+.mar-top-0 {
+  margin-top:0px;
+}
+.mar-top-2 {
+  margin-top:20px;
+}
+
+.mar-top-4 {
+  margin-top:40px;
+}
+
+.mar-top-6 {
+  margin-top:60px;
+}
+
+.mar-top-8 {
+  margin-top:80px;
+}
+
 
 .work-item {
   margin-bottom: 30px;
@@ -393,7 +495,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   font-size: 50px;
   display: block;
   color: #fff;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   width: 100%;
   margin-bottom: .5em;
 }
@@ -401,7 +503,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   color: #fff;
   text-transform: uppercase;
   font-size: 13px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   letter-spacing: 5px;
   margin-bottom: 2em;
   display: block;
@@ -809,7 +911,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   -webkit-border-radius: 0px;
