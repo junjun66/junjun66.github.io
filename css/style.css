@@ -138,6 +138,39 @@ figure {
   background-color:#D4ECFF;
 }
 
+#table-inspection
+{
+  width:100%;
+  border-collapse:collapse;
+}
+#table-inspection tr.p0 td
+{ font-size:14px;
+    font-weight: 600;
+  text-align:center;
+  border:1px solid #fff;
+   padding:10px 10px;
+  background-color:#BBBEBF;
+    color: #FFF;
+}
+
+#table-inspection tr.p1 td
+{ font-size:12px;
+  width: 50%;
+  font-weight: 600;
+  text-align:left;
+  border:1px solid #fff;
+  padding:6px 10px;
+  background-color:#B9DDFC;
+}
+
+#table-inspection tr.p2 td
+{ font-size:12px;
+  text-align:left;
+  border:1px solid #fff;
+   padding:6px 10px;
+  background-color:#D4ECFF;
+}
+
 
 #w1-gif {
   background-color: #D4ECFF; 
