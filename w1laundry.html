@@ -22,8 +22,6 @@
  
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-
 	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Open Sans:300,400,600,700,400italic">
@@ -39,6 +37,12 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/blowup.min.js"></script>
+    <script type="text/javascript" src="demo/scripts/index.js"></script>
+    <script type="text/javascript" src="demo/scripts/prism.js"></script>
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -67,10 +71,10 @@
 					<li><a href="#w1-4">Interview Session</a></li>
                     <li><a href="#w1-5">Observation In Context</a></li>
                     <li><a href="#w1-6">Look Into Emotions</a></li>
-                    <li><a href="#w1-7">Task Walkthrough</a></li>
-                    <li><a href="#w1-8">Design Requirements</a></li>
+                    <li><a href="#w1-7">User Journey Map</a></li>
                     <li><a href="#w1-9"  class="p-title" >2.DESIGN</a></li>
-					<li><a href="#w1-10">Design Ideas</a></li>
+                    <li><a href="#w1-8">Design Requirements</a></li>
+					<li><a href="#w1-10">Initial Ideas</a></li>
                     <li><a href="#w1-11">Idea Evaluation</a></li>
 					<li><a href="#w1-12">Concept Flow Diagram</a></li>
                     <li><a href="#w1-13">Wireframe</a></li>
@@ -139,7 +143,7 @@
                         <h4 id="w1-4">Interview Session</h4>
                     </div>
  
-                    <div class="col-md-6 mar-top-4" >
+                    <div class="col-md-6 mar-top-2" >
                         <h5>Interviewees</h5>
                         <p class="mar-bot-0 p-small">3 students sharing private machines with roommates</p>
                         <p class="p-small">3 students doing laundry in a communal laundry room</p>
@@ -147,7 +151,7 @@
                         
                     </div>
                     
-                    <div class="col-md-6  mar-top-4" >
+                    <div class="col-md-6  mar-top-2" >
                     <h5>Research Question</h5>
                         <p class="mar-bot-0 p-small">To start exploring my design goal, I posed two research questions to myself to answer.</p>
                         <p class="mar-bot-0 p-small">1. How do college students look at sharing washing machines with neighbors/roommates?</p>
@@ -203,62 +207,15 @@
                     
                      <div class="col-md-12" >
                          <hr>
-                        <h4 id="w1-7">Task Walkthrough</h4>
-                         <p class="mar-bot-0">Step-by-step tour of one return</p>
-                         <img src="images/1-14-task.jpg" alt="task" class="img-responsive center-block">
+                        <h4 id="w1-7"  class="mar-bot-4">User Journey Map</h4>
+                         <img src="images/1-14-map.jpg" alt="task" class="img-responsive demo-img">
+                        </div>
                          
-                           <div class="col-md-10 col-md-offset-1 mar-bot-4 mar-top-2">
-                            <p>Students need to<span class="p-bold"> make 3 returns</span> (wash,dry,fetch) to finish laundry. Sometimes they come in vain when it’s too long to wait a free machine. </p>
-							<img src="images/1-15-taskbig.png" alt="taskbig" class="img-responsive img-padding center-block">
+                     <div class="col-md-12 mar-bot-4 mar-top-6">
+                            <p>*Students need to repeat this procedure again for using drier after washing the clothes. </p>
 					    </div>
-					 </div>    
-                        
-                     <div class="col-md-12" >
-                         <hr>
-                        <h4 id="w1-8">Design Requirements</h4>
-                        <div class="col-md-10 col-md-offset-1 mar-bot-6 mar-top-4">
-                            <img src="images/1-16-desired.png" alt="taskbig" class="img-responsive center-block">
-                         </div></div>
-                
-                    <div class="col-md-12"><table id= "table-requirements">
-                     <tr class="p0">
-  <td class= "wide"> Problem Statement </td>
-  <td class= "wide"> Design requirements </td>
-  <td class= "narrow"> Priority </td>
-</tr>
-                    <tr class= "p1">
-  <td><span class="p-bold">Unexpected wait:</span>  No free washers or dryers because of limited number of machines</td>
-  <td>Enable students to view status of the machines in advance</ td>
-  <td >P1</td>
-</tr>
-                    <tr class= "p1">
-  <td ><span class="p-bold">Uncertain wait: </span> Last person doesn’t take washed clothes in time</td>
-  <td >Remind students to have the awareness of following good laundry etiquettes
-</ td>
-  <td >P1</td>
-</tr>
-                    <tr class= "p1">
-  <td ><span class="p-bold">Meaningless time:</span>     Students don’t want to stay to wait but they cannot make sure they are the next if they come back later. They are not able to make use of that time.
-</td>
-  <td >Enable students to fully control their laundry schedule. Avoid any unncevssary wait.</ td>
-  <td >P1</td>
-</tr>
-                    <tr class= "p1">
-  <td ><span class="p-bold">Wasted mobility:</span>  Students come in vain when it’s too long to wait. </td>
-  <td >Create basic rules and waiting orders</td >
-  <td >P1</td>
-</tr>
-                    <tr class= "p2">
-  <td ><span class="p-bold">Distraction:</span>  Pay attention to time when the washer/dryer is working</td>
-  <td >Enable students to receive reminders automatically, to take out clothes in time</td>
-  <td >P2</td>
-</tr>
-                    <tr class= "p2">
-                        <td ><span class="p-bold">Tedious procedures:</span> Too many steps on different devices to pay and start</td>
-  <td >Enable students to pay and start easily and quickly</td >
-  <td >P2</td>
-</tr>
-                    </table></div>
+					     
+                    
                         
                         
                     <div class="col-md-12 mar-top-6 mar-bot-6"></div>
@@ -266,9 +223,52 @@
                     <div id="w1-9" class="col-md-12" >
                        <img src="images/1-0-t3.png" alt="title1" class="img-responsive title">
                     <hr class="mar-top-0"></div>
+                        
+                        
+                       
+                     <div class="col-md-12" >
+                        <h4 id="w1-8">Design Requirements</h4>
+                        </div>
+                        <div class="col-md-12"><table id= "table-requirements">
+                     <tr class="p0">
+  <td class= "wide"> Problem Statement </td>
+  <td class= "wide"> Design requirements </td>
+</tr>
+                    <tr class= "p1">
+  <td><span class="p-bold">Unexpected wait:</span>  No free washers or dryers because of limited number of machines</td>
+  <td>Enable students to view status of the machines in advance</ td>
+</tr>
+                    <tr class= "p1">
+  <td ><span class="p-bold">Uncertain wait: </span> Last person doesn’t take washed clothes in time</td>
+  <td >Remind students to have the awareness of following good laundry etiquettes
+</ td>
+</tr>
+                    <tr class= "p1">
+  <td ><span class="p-bold">Meaningless time:</span>     Students don’t want to stay to wait but they cannot make sure they are the next if they come back later. They are not able to make use of that time.
+</td>
+  <td >Enable students to fully control their laundry schedule. Avoid any unncevssary wait.</ td>
+</tr>
+                    <tr class= "p1">
+  <td ><span class="p-bold">Wasted mobility:</span>  Students come in vain when it’s too long to wait. </td>
+  <td >Create basic rules and waiting orders</td >
+</tr>
+                    <tr class= "p1">
+  <td ><span class="p-bold">Distraction:</span>  Pay attention to time when the washer/dryer is working</td>
+  <td >Enable students to receive reminders automatically, to take out clothes in time</td>
+</tr>
+                    <tr class= "p1">
+                        <td ><span class="p-bold">Tedious procedures:</span> Too many steps on different devices to pay and start</td>
+  <td >Enable students to pay and start easily and quickly</td >
+                        <tr class= "p1">
+                        <td ><span class="p-bold">Confusion:</span> Have not idea how to set temperature.</td>
+  <td >Provide information on how to set temperature</td >
+</tr>
+                    </table></div>
+                
                     
                     <div class="col-md-12" >
-                        <h4 id="w1-10">Design Ideas</h4>
+                        <hr>
+                        <h4 id="w1-10">Initial Ideas</h4>
                          <h5>IDEA1 - Pay or Queue directly on a specific machine</h5>
                          <p>Students scan payment QR codes to pay on a machine directly, or queue on the machine they want to wait for when all machines are in use. Animations on the screen show the status.</p>
                          <img src="images/1-17-idea1.jpg" alt="taskbig" class="img-responsive img-padding center-block">
@@ -384,7 +384,6 @@
 </div></div></div></div>
 
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->

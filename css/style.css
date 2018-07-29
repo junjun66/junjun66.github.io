@@ -122,36 +122,36 @@ figure {
   border-collapse:collapse;
 }
 #table-requirements tr.p0 td.wide
-{ font-size:14px;
+{ font-size:12px;
     font-weight: 600;
-  text-align:left;
+  text-align:center;
   border:1px solid #fff;
    padding:12px 10px;
-  background-color:#BBBEBF;
-    color: #FFF;
-   width: 46%;
+  background-color:#E4E3E6;
+    color: #000;
+   width: 50%;
 }
 #table-requirements tr.p0 td.narrow
-{ font-size:14px;
+{ font-size:12px;
     font-weight: 600;
   text-align:left;
   border:1px solid #fff;
    padding:12px 10px;
-  background-color:#BBBEBF;
+  background-color:#E9DFFF;
     color: #FFF;
-   width: 8%;
+   width: 0%;
 }
 
 #table-requirements tr.p1 td
-{ font-size:14px;
+{ font-size:12px;
   text-align:left;
   border:1px solid #fff;
   padding:12px 10px;
-  background-color:#B9DDFC;
+  background-color:#f2f2f2;
 }
 
 #table-requirements tr.p2 td
-{ font-size:14px;
+{ font-size:12px;
   text-align:left;
   border:1px solid #fff;
    padding:12px 10px;
@@ -670,7 +670,7 @@ padding-right:6px;}
 .hovereffect h2 {
   position: relative;
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 300;
   color: #FFF;
   margin: 0 0;
@@ -685,7 +685,7 @@ padding-right:6px;}
 .hovereffect p {
   color: #FFF;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   opacity: 0;
   filter: alpha(opacity=0);
